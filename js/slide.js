@@ -3,11 +3,6 @@ var next = document.querySelector(".slider-next");
 var elements = document.querySelectorAll(".slider-slide");
 var activeImg = 0;
 
-// console.log(prev, next, elements, activeImg);
-
-elements[activeImg].classList.remove(".slider-slide-active");
-
-
 
 next.addEventListener("click", function() {
 

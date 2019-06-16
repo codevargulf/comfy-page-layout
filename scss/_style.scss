@@ -215,62 +215,10 @@ body {
     color: var(--color);
     font-weight: bold;
 }
-// .page-header {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     margin: 50px;
-// }
-// .page-logo {
-//     width: 135px;
-//     height: 65px;
-//     background: $color-logo;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     color: #fff;
-//     font-family: 'Oleo Script', cursive;
-//     text-decoration: none;
-//     font-size: 50px;
-//     border-radius: 6px;
-// }
-
-// .page-nav {}
-
-// .page-nav-list {
-//     display: flex;
-//     list-style: none;
-//     padding: 0;
-//     margin: 0;
-// }
-
-// .page-nav-item {
-//     margin: 20px;
-// }
-
-// .page-nav-link {
-//     text-decoration: none;
-//     font-weight: bold;
-//     color: $color-text;
-//     padding: 7px 12px;
-//     border-radius: 2px;
-//     transition: 0.5s background;
-
-
-//     &:hover {
-//         background-color: #fff;
-//     }
-    
-// }
-
-// .page-nav-item.active .page-nav-link {
-//     background-color: $color-text;
-//     color: #fff;
-// } 
 
 .page-nav-toggle {
     width: 40px;
-    height: 20px;
+    height: 30px;
     background: rgba(#fff, 0.8);
     border: 0;
     border-radius: 3px;
@@ -279,17 +227,17 @@ body {
     align-items: center;
     flex-direction: column;
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 5px;
+    left: 5px;
     z-index: 10000;
     cursor: pointer;
 
     span {
         display: block;
         width: 20px;
-        height: 2px; 
+        height: .2em; 
         background: #000;
-        margin: 2px;
+        margin: 1px;
     }
 }
 
@@ -299,6 +247,9 @@ body {
     }
     .page-nav-toggle {
         display: flex;
+    }
+    .page-logo {
+        margin-left: auto;
     }
 }
 

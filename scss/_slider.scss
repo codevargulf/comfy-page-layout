@@ -1,0 +1,21 @@
+.slider-slide{
+    display: none;
+}
+
+.slider-slide-active {
+    display: flex;
+}
+
+@media (max-width: 760px){
+    .slide-left {
+        display: none;
+    }
+    .slide-right {
+        text-align: center;
+    }
+    .slider-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
